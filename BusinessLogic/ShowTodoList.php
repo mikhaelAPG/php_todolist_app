@@ -5,11 +5,11 @@
  */
 function showTodoList()
 {
-    global $todolist;
+    global $todoList;
 
     echo "TODOLIST" . PHP_EOL;
 
-    foreach ($todolist as $number => $value) {
+    foreach ($todoList as $number => $value) {
         echo "$number. $value" . PHP_EOL;
     }
 }
